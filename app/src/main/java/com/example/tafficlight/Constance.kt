@@ -3,9 +3,9 @@ package com.example.tafficlight
 object Constance {
     val trafficLightColors = mapOf(
             "unplugged" to R.drawable.unpluged,
-            "red" to R.drawable.redLight,
-            "yellow" to R.drawable.yellowLight,
-            "green" to R.drawable.greenLight
+            "red" to R.drawable.red_light,
+            "yellow" to R.drawable.yellow_light,
+            "green" to R.drawable.green_light
     )
     val switchButton = mapOf(
             "turn_on" to R.drawable.switch_on,
