@@ -9,6 +9,6 @@ object Constance {
     )
     val switchButton = mapOf(
             "turn_on" to R.drawable.switch_on,
-            "turn_on" to R.drawable.switch_off
+            "turn_off" to R.drawable.switch_off
     )
 }
