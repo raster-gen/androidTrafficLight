@@ -5,7 +5,8 @@ import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
 
-    val currentIndex = 0
+
+    val stateOfTrafficLight = false
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +14,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun moveToNext() {
-        currentIndex = (currentIndex + 1) % questionBank.size
+    fun startStop() {
+        when (stateOfTrafficLight) {
+            true -> ""
+            false -> ""
+        }
+
+
     }
 }
